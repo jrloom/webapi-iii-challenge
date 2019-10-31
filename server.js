@@ -15,7 +15,7 @@ server.use("/api/posts", postRouter);
 // });
 
 server.get("/", (req, res) =>
-  res.status(200).json({ message: "It's working" })
+  res.status(200).json({ message: "App deployed" })
 );
 
 //custom middleware
